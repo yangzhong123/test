@@ -7,5 +7,9 @@ void Leds_Contrl(void)
   for(i=0;i<100;i++)
   {
 	led=led*2;
+	if(led==0x00)
+	{
+		led=0;
+	}
   }
 }
