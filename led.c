@@ -9,7 +9,7 @@ void Leds_Contrl(void)
 	led=led*2;
 	if(led==0x00)
 	{
-		led=0;
+		led=1;
 	}
   }
 }
